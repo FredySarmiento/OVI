@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit');
 @import url(menu.css);
+@import url(banner.css);
 * {
 	margin: 0;
 	padding: 0;
@@ -24,8 +25,18 @@ header{
 {
 	width: 98%;
 	margin: auto;
+
 }
 
 h1{
 	float: left;
+}
+
+header .contenedor{
+	display: table;
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px;
 }
