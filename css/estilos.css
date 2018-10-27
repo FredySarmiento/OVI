@@ -50,7 +50,9 @@ section{
 
 #bien{
 	text-align: justify;
-	
+	padding-left: 50px;
+	padding-right: 50px;
+
 }
 section #principal, aside{
 	border-radius: 0.5em;
@@ -117,5 +119,6 @@ footer .contenedor{
  .centrado{
 	margin:10px auto;
 	display:block;
+
     }
 
