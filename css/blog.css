@@ -7,10 +7,10 @@
 	flex-wrap: wrap;
 }
 
-#blog {
+#blog article {
 	margin: 15px;
 }
-#blog {
+#blog  img{
 	width: 100%;
 	max-width: 280px;
 }
