@@ -21,6 +21,7 @@ header{
 	top: 0;
 	left: 0;
 	z-index: 100;
+	justify-content: flex-end;
 
 }
 
@@ -28,7 +29,6 @@ header{
 {
 	width: 98%;
 	margin: auto;
-
 }
 
 h1{
@@ -47,3 +47,59 @@ section{
 	text-align: center;
 	
 }
+section #principal, aside{
+	border-radius: 0.5em;
+	display: inline-block;
+	margin:0.2em auto;
+	max-width: 960;
+	min-height: 200px;
+	vertical-align: top;
+	width: 50%;
+}
+article{
+	
+	border-radius: 0.5em;
+	min-height: 140px;
+	padding: 0.25em;
+}
+aside{
+	width: 40%;
+}
+#contenedor h3, h4{
+	text-align: center;
+
+}
+#contenedor .conten{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#contenedor article {
+	margin: 10px;
+}
+#contenedor  img{
+	width: 100%;
+	max-width: 400px;
+}
+footer .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.copy{
+	font-size: 20px
+}
+.sociales{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+.sociales a{
+	color:#005883;
+	text-decoration:none;  
+}
+
+
