@@ -46,6 +46,10 @@ section{
 }
 #bienvenidos {
 	text-align: center;
+}
+
+#bien{
+	text-align: justify;
 	
 }
 section #principal, aside{
