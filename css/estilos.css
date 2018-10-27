@@ -110,4 +110,8 @@ footer .contenedor{
     left: 25px;
     cursor: pointer;
 }
+ .centrado{
+	margin:10px auto;
+	display:block;
+    }
 
